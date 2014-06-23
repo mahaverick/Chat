@@ -1,0 +1,13 @@
+{
+	"name": "cardioChat",
+	"version": "0.0.1",
+	"description": "Chat app built with Node.js and Socket.io",
+	"main": "app.js",
+	"private": true,
+	"dependencies": {
+		"express": "latest",
+		"socket.io": "~ 0.9.16",
+		"ejs": "latest"
+	},
+	"author": "Abhijeet Mahavarkar"
+}

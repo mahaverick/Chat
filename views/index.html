@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>CardioChat v0.0.1</title>
+		<meta charset="utf-8">
+
+		<link rel="stylesheet" type="text/css" href="/css/chat.css">
+	</head>
+	<body>
+		<div id="nickWrap">
+			<p>Enter your Nickname :</p>
+			<p id="nickError"></p>
+			<form id="userNick">
+				<input type="text" id="nickName" />
+				<input type="submit" value="Submit" />
+			</form>
+		</div>
+		<div id="nicknameBoard"><em>your Nickname: </em> <span id="name"></span></div>
+		<div id="partnerSelectionWrap">
+			<p>Whom you want to send a message</p>
+			<p id="partnerSelectionError"></p>
+			<form id="partnerSelection">
+				<input type="text" id="partnerName" />
+				<input type="submit" value="Submit" />
+			</form>
+		</div>
+
+		<ul><div id="usersList"></div></ul>
+		<div id="contentWrap">
+			<div id="chatWrap">
+				<div id="chat"></div>
+				<form id="sendMessage">
+					<input type="text" id="message" />
+					<input type="submit" value="Send" />
+				</form>
+			</div>
+		</div>
+
+		<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+		<script type="text/javascript" src="/socket.io/socket.io.js"></script>
+		<script type="text/javascript" src="/js/chat.js"></script>
+	</body>
+</html>

@@ -1,0 +1,37 @@
+html{
+
+}
+
+body{
+}
+
+#chat{
+
+	height: 500px;
+}
+
+#chatWrap{
+	float: right;
+	width:300px;
+	border: 1px #000 solid;
+	margin: 10px;
+}
+
+#nicknameBoard {
+	display: none;
+	position: relative;
+	margin: 20px;
+	float: right;
+}
+
+#userList {
+	float: left;
+}
+
+#contentWrap {
+	display: none;
+}
+
+#partnerSelectionWrap {
+	display: none;
+}
